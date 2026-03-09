@@ -54,15 +54,13 @@ public class UseCase8PalindromeCheckerApp {
             first = first.next;
             second = second.next;
         }
-
-        return true;
+      return true;
     }
 
     public static void main(String[] args) {
 
         String input = "madam";
-
-        if (isPalindrome(input)) {
+   if (isPalindrome(input)) {
             System.out.println(input + " is a Palindrome");
         } else {
             System.out.println(input + " is NOT a Palindrome");
